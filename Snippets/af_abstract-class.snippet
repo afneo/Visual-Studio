@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>regioned abstract class</Title>
+      <Shortcut>af_abstractclass</Shortcut>
+      <Description>Code snippet for abstract class</Description>
+      <Author>Alaa Farouk</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Class name</ToolTip>
+          <Default>MyClass</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[public abstract class $name$
+	{
+  
+     #region fields
+     #endregion
+     
+     #region properties
+     #endregion
+     
+     #region constructors         
+     #endregion
+     
+     #region methods
+     #endregion     
+		
+	}]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
